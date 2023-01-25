@@ -29,6 +29,16 @@ public class SwitchValueExample {
 		};
 		
 		System.out.println("score2: " + score2);
+		
+		int score3 = switch(grade) {
+			case "A" -> 100;
+			case "B" -> {
+				int result = 100 - 20;
+				yield result;
+			}
+			default -> 60;
+		};
+		System.out.println("score3: " + score3);
 	}
 
 }
