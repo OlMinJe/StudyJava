@@ -1,9 +1,9 @@
-// 종이대로 띄어쓰는게 좀 어렵네
+
 public class exam12 {
 
 	public static void main(String[] args) {	
 		//* 내 코드
-		for(int i = 1; i <= 9; i+=3 ) {
+		for(int i = 2; i <= 9; i+=3 ) {
 			for(int j = 1; j <= 3; j++) {
 				for(int k = i ; k <= i+2; k++) {
 					System.out.print(k + "*" + j + "=" + k*j + "\t");

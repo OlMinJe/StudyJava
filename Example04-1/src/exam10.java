@@ -8,11 +8,7 @@ public class exam10 {
 		
 		int num = 12345;
 		int sum = 0;
-		
-		/* [1] 내가 한 거
-		sum = (num%10) + (int)((num%100) * 0.1) + (int)((num%1000) * 0.01) +
-				(int)((num%10000) * 0.001) + (int)((num%100000) * 0.0001);
-		/**/
+	
 
 		do {
 			sum += num % 10;

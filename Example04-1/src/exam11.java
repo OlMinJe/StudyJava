@@ -1,4 +1,4 @@
-// 조금 어려웠음
+
 public class exam11 {
 
 	public static void main(String[] args) {
